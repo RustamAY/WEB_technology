@@ -6,9 +6,9 @@
 // Необходимо у пользователя запросить имя и вызвать функцию greeting, передав туда полученное от пользователя значение.
 
 function greeting(name){
-    greetings = (`Добрый день ${name}`)
-    return greetings
+    greetings = (`Добрый день ${name}`);
+    return greetings;
 }
 
-let name = prompt("Введите свое имя: ")
-console.log(greeting(name))
+const name = prompt("Введите свое имя: ");
+console.log(greeting(name));
